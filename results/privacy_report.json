@@ -1,0 +1,210 @@
+{
+  "n_transcripts": 3768,
+  "items_flagged": 62,
+  "entity_counts": {
+    "NAME": 43,
+    "ID": 21
+  },
+  "examples": [
+    {
+      "split": "train",
+      "before": "Asilimia 34 ya walio kwenye uchunguzi wanashiriki maoni haya, kumtaka Malkia Elizabeth wa II awe malikia wa mwisho wa Australia.",
+      "after": "Asilimia 34 ya walio kwenye uchunguzi wanashiriki maoni haya, kumtaka Malkia [NAME] wa II awe malikia wa mwisho wa Australia.",
+      "counts": {
+        "NAME": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Mnamo Jumatano, Ushirika wa Kitaifa wa Mpira wa Kikapu wa Marekani (NBA) ulisimamisha kipindi chake cha mpira wa kikapu wa kitaalamu kwa sababu ya wasiwasi kuhusu COVID-19.",
+      "after": "Mnamo Jumatano, Ushirika wa Kitaifa wa Mpira wa Kikapu wa Marekani (NBA) ulisimamisha kipindi chake cha mpira wa kikapu wa kitaalamu kwa sababu ya wasiwasi kuhusu [ID].",
+      "counts": {
+        "ID": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Majeshi yanayoimarisha nafasi za mbele ni pamoja na ya 1 na ya 3 ya majeshi ya New Hampshire yaliyo na wanaume 200, yaliyo chini ya makanali John Stark na James Reed (ambao baadaye wote walikuwa majenerali).",
+      "after": "Majeshi yanayoimarisha nafasi za mbele ni pamoja na ya 1 na ya 3 ya majeshi ya New Hampshire yaliyo na wanaume 200, yaliyo chini ya makanali [NAME] Stark na James Reed (ambao baadaye wote walikuwa majenerali).",
+      "counts": {
+        "NAME": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Twin Otter ilikuwa ikijaribu kutua jana kama ndege ya PNG CG4684, lakini tayari ilikuwa imeshindwa mara moja.",
+      "after": "Twin Otter ilikuwa ikijaribu kutua jana kama ndege ya PNG [ID], lakini tayari ilikuwa imeshindwa mara moja.",
+      "counts": {
+        "ID": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "John Grant, kutoka WNED Buffalo (kituo cha nyumbani cha Reading Rainbow) alisema \"Reading Rainbow iliwafunza watoto ni kwa nini wasome,…kupenda kusoma — [onyesho] liliwahimiza watoto kuchukua kitabu na kusoma.\"",
+      "after": "[NAME] Grant, kutoka WNED Buffalo (kituo cha nyumbani cha Reading Rainbow) alisema \"Reading Rainbow iliwafunza watoto ni kwa nini wasome,…kupenda kusoma — [onyesho] liliwahimiza watoto kuchukua kitabu na kusoma.\"",
+      "counts": {
+        "NAME": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Twin Otter ilikuwa ikijaribu kutua jana kama ndege ya PNG CG4684, lakini tayari ilikuwa imeshindwa mara moja.",
+      "after": "Twin Otter ilikuwa ikijaribu kutua jana kama ndege ya PNG [ID], lakini tayari ilikuwa imeshindwa mara moja.",
+      "counts": {
+        "ID": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Peter Lenz, mwendeshaji wa pikipiki za mashindano mwenye umri wa miaka 13, alifariki baada ya kuhusika katika ajali kwenye Motor Speedway ya Indianapolis.",
+      "after": "[NAME] Lenz, mwendeshaji wa pikipiki za mashindano mwenye umri wa miaka 13, alifariki baada ya kuhusika katika ajali kwenye Motor Speedway ya Indianapolis.",
+      "counts": {
+        "NAME": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Mswada halisi ulitungwa na meya wa awali wa Sao Paulo, Marta Suplicy. Sheria iliyopendekezwa, baada ya kurekebishwa, sasa iko mikononi mwa Roberto Jefferson.",
+      "after": "Mswada halisi ulitungwa na meya wa awali wa Sao [NAME], Marta Suplicy. Sheria iliyopendekezwa, baada ya kurekebishwa, sasa iko mikononi mwa Roberto Jefferson.",
+      "counts": {
+        "NAME": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Mswada halisi ulitungwa na meya wa awali wa Sao Paulo, Marta Suplicy. Sheria iliyopendekezwa, baada ya kurekebishwa, sasa iko mikononi mwa Roberto Jefferson.",
+      "after": "Mswada halisi ulitungwa na meya wa awali wa Sao [NAME], Marta Suplicy. Sheria iliyopendekezwa, baada ya kurekebishwa, sasa iko mikononi mwa Roberto Jefferson.",
+      "counts": {
+        "NAME": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Kasi za 802.11n ni haraka sana kuliko zile za watangulizi wake zikiwa upeo wa kinadharia wa kiwango cha juu cha 600Mbit/s.",
+      "after": "Kasi za 802.11n ni haraka sana kuliko zile za watangulizi wake zikiwa upeo wa kinadharia wa kiwango cha juu cha [ID]/s.",
+      "counts": {
+        "ID": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Peter Kostello, mweka hazina wa Australia na mtu aliye na uwezekano mkubwa wa kurithi nafasi ya Waziri Mkuu Yohana Howad kama kiongozi wa Chama Huria ametupa msaada wake kwa tasnia moja ya nguvu za nyuklia huko Australia.",
+      "after": "[NAME] Kostello, mweka hazina wa Australia na mtu aliye na uwezekano mkubwa wa kurithi nafasi ya Waziri Mkuu Yohana Howad kama kiongozi wa Chama Huria ametupa msaada wake kwa tasnia moja ya nguvu za nyuklia huko Australia.",
+      "counts": {
+        "NAME": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Mnamo 1895, baada ya kushindwa katika vita vya kwanza vya Sino-Japani (1894-1895), serikali ya Qing yatia sahihi mkataba wa Shimonoseki, ambao kwao inadhihirisha uhuru juu ya Taiwan hadi Japani, ambayo inaongoza kisiwa hadi 1945.",
+      "after": "Mnamo 1895, baada ya kushindwa katika vita vya kwanza vya Sino-Japani ([ID]), serikali ya Qing yatia sahihi mkataba wa Shimonoseki, ambao kwao inadhihirisha uhuru juu ya Taiwan hadi Japani, ambayo inaongoza kisiwa hadi 1945.",
+      "counts": {
+        "ID": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Mswada halisi ulitungwa na meya wa awali wa Sao Paulo, Marta Suplicy. Sheria iliyopendekezwa, baada ya kurekebishwa, sasa iko mikononi mwa Roberto Jefferson.",
+      "after": "Mswada halisi ulitungwa na meya wa awali wa Sao [NAME], Marta Suplicy. Sheria iliyopendekezwa, baada ya kurekebishwa, sasa iko mikononi mwa Roberto Jefferson.",
+      "counts": {
+        "NAME": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Mnamo 1895, baada ya kushindwa katika vita vya kwanza vya Sino-Japani (1894-1895), serikali ya Qing yatia sahihi mkataba wa Shimonoseki, ambao kwao inadhihirisha uhuru juu ya Taiwan hadi Japani, ambayo inaongoza kisiwa hadi 1945.",
+      "after": "Mnamo 1895, baada ya kushindwa katika vita vya kwanza vya Sino-Japani ([ID]), serikali ya Qing yatia sahihi mkataba wa Shimonoseki, ambao kwao inadhihirisha uhuru juu ya Taiwan hadi Japani, ambayo inaongoza kisiwa hadi 1945.",
+      "counts": {
+        "ID": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Chombo cha kuzunguka mwezi Chandrayaan-1 kisichoendeshwa na mtu kilitoa Kichunguza Athari za Mwezi (MIP) chake, ambacho kilisonga kwa kasi katika uso wa Mwezi kwa mwendo wa kilomita 1.5 kwa sekunde (maili 3000 kwa saa), na kikatua kwa kishindo kwa mafanikio karibu na ncha ya kusini ya Mwezi.",
+      "after": "Chombo cha kuzunguka mwezi [ID] kisichoendeshwa na mtu kilitoa Kichunguza Athari za Mwezi (MIP) chake, ambacho kilisonga kwa kasi katika uso wa Mwezi kwa mwendo wa kilomita 1.5 kwa sekunde (maili 3000 kwa saa), na kikatua kwa kishindo kwa mafanikio karibu na ncha ya kusini ya Mwezi.",
+      "counts": {
+        "ID": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "MetroRail ina daraja mbili katika treni za abiria ndani na karibu na Cape Town: MetroPlus (pia huitwa Daraja la Kwanza) na Metro (huitwa Daraja la Tatu).",
+      "after": "MetroRail ina daraja mbili katika treni za abiria ndani na karibu na Cape Town: MetroPlus (pia huitwa Daraja la Kwanza) na Metro (huitwa Daraja la [NAME]).",
+      "counts": {
+        "NAME": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Usomaji wa kwanza kwa umma wa hati hiyo ulifanywa na John Nixon katika yadi ya Ukumbi wa Uhuru mnamo Julai 8.",
+      "after": "Usomaji wa kwanza kwa umma wa hati hiyo ulifanywa na [NAME] Nixon katika yadi ya Ukumbi wa Uhuru mnamo Julai 8.",
+      "counts": {
+        "NAME": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Dini ilianzishwa karne ya 15 na Guru Nanak 1469-1539). Palifuatilia urithi wa walimu tisa.",
+      "after": "Dini ilianzishwa karne ya 15 na Guru Nanak [ID]). Palifuatilia urithi wa walimu tisa.",
+      "counts": {
+        "ID": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Mnamo Jumatano, Ushirika wa Kitaifa wa Mpira wa Kikapu wa Marekani (NBA) ulisimamisha kipindi chake cha mpira wa kikapu wa kitaalamu kwa sababu ya wasiwasi kuhusu COVID-19.",
+      "after": "Mnamo Jumatano, Ushirika wa Kitaifa wa Mpira wa Kikapu wa Marekani (NBA) ulisimamisha kipindi chake cha mpira wa kikapu wa kitaalamu kwa sababu ya wasiwasi kuhusu [ID].",
+      "counts": {
+        "ID": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Peter Lenz, mwendeshaji wa pikipiki za mashindano mwenye umri wa miaka 13, alifariki baada ya kuhusika katika ajali kwenye Motor Speedway ya Indianapolis.",
+      "after": "[NAME] Lenz, mwendeshaji wa pikipiki za mashindano mwenye umri wa miaka 13, alifariki baada ya kuhusika katika ajali kwenye Motor Speedway ya Indianapolis.",
+      "counts": {
+        "NAME": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Peter Kostello, mweka hazina wa Australia na mtu aliye na uwezekano mkubwa wa kurithi nafasi ya Waziri Mkuu Yohana Howad kama kiongozi wa Chama Huria ametupa msaada wake kwa tasnia moja ya nguvu za nyuklia huko Australia.",
+      "after": "[NAME] Kostello, mweka hazina wa Australia na mtu aliye na uwezekano mkubwa wa kurithi nafasi ya Waziri Mkuu Yohana Howad kama kiongozi wa Chama Huria ametupa msaada wake kwa tasnia moja ya nguvu za nyuklia huko Australia.",
+      "counts": {
+        "NAME": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Chombo cha kuzunguka mwezi Chandrayaan-1 kisichoendeshwa na mtu kilitoa Kichunguza Athari za Mwezi (MIP) chake, ambacho kilisonga kwa kasi katika uso wa Mwezi kwa mwendo wa kilomita 1.5 kwa sekunde (maili 3000 kwa saa), na kikatua kwa kishindo kwa mafanikio karibu na ncha ya kusini ya Mwezi.",
+      "after": "Chombo cha kuzunguka mwezi [ID] kisichoendeshwa na mtu kilitoa Kichunguza Athari za Mwezi (MIP) chake, ambacho kilisonga kwa kasi katika uso wa Mwezi kwa mwendo wa kilomita 1.5 kwa sekunde (maili 3000 kwa saa), na kikatua kwa kishindo kwa mafanikio karibu na ncha ya kusini ya Mwezi.",
+      "counts": {
+        "ID": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Peter Lenz, mwendeshaji wa pikipiki za mashindano mwenye umri wa miaka 13, alifariki baada ya kuhusika katika ajali kwenye Motor Speedway ya Indianapolis.",
+      "after": "[NAME] Lenz, mwendeshaji wa pikipiki za mashindano mwenye umri wa miaka 13, alifariki baada ya kuhusika katika ajali kwenye Motor Speedway ya Indianapolis.",
+      "counts": {
+        "NAME": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Kasi za 802.11n ni haraka sana kuliko zile za watangulizi wake zikiwa upeo wa kinadharia wa kiwango cha juu cha 600Mbit/s.",
+      "after": "Kasi za 802.11n ni haraka sana kuliko zile za watangulizi wake zikiwa upeo wa kinadharia wa kiwango cha juu cha [ID]/s.",
+      "counts": {
+        "ID": 1
+      }
+    },
+    {
+      "split": "train",
+      "before": "Chui yuko kwenye kundi moja (jenasi panther) na simba, lengau na chui wa America ya kusini na kati. Hawa paka wanne pekee ndio wanaoweza kunguruma.",
+      "after": "Chui yuko kwenye kundi moja (jenasi panther) na simba, lengau na chui wa America ya kusini na kati. [NAME] paka wanne pekee ndio wanaoweza kunguruma.",
+      "counts": {
+        "NAME": 1
+      }
+    }
+  ]
+}

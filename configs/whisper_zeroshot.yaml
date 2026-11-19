@@ -1,0 +1,3 @@
+name: whisper_zeroshot
+model: openai/whisper-small
+method: none

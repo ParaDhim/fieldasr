@@ -1,0 +1,6 @@
+name: w2v2_xlsr
+model: facebook/wav2vec2-xls-r-300m
+method: ctc
+lr: 2.0e-4
+epochs: 20
+batch_size: 16

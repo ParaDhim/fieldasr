@@ -1,0 +1,1 @@
+{"steps": 910, "train_seconds": 409.80113768577576, "trainable_params": 241734912, "name": "whisper_full_aug", "model": "openai/whisper-small", "method": "full", "lr": 1e-05, "epochs": 5, "batch_size": 16, "augment": true}

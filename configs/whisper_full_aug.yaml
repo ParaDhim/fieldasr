@@ -1,0 +1,7 @@
+name: whisper_full_aug
+model: openai/whisper-small
+method: full
+lr: 1.0e-5
+epochs: 5
+batch_size: 16
+augment: true

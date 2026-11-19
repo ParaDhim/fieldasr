@@ -1,0 +1,7 @@
+name: retrain_random60
+base: results/whisper_lora_s0/model
+corrections: "data/review/corrections_random.csv"
+replay: 200
+oversample: 3
+epochs: 3
+lr: 2.0e-5

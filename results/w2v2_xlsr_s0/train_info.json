@@ -1,0 +1,1 @@
+{"steps": 3640, "train_seconds": 4519.340480566025, "name": "w2v2_xlsr", "model": "facebook/wav2vec2-xls-r-300m", "method": "ctc", "lr": 0.0002, "epochs": 20, "batch_size": 16}

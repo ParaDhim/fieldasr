@@ -1,0 +1,1 @@
+{"steps": 910, "train_seconds": 593.3203253746033, "trainable_params": 12976128, "name": "whisper_lora", "model": "openai/whisper-small", "method": "lora", "lr": 0.0005, "epochs": 5, "batch_size": 16, "lora_r": 32, "lora_alpha": 64, "augment": false}

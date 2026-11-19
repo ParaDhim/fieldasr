@@ -1,0 +1,9 @@
+.venv
+data
+results
+logs
+mlruns
+mlflow.db
+.git
+__pycache__
+*.egg-info
